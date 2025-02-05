@@ -15,6 +15,8 @@ protected:
 
 public:
     Person(int id, const string& name, int age, const string& gender);
+    int getId() const { return id; }  // Inline getter for ID
+
     virtual void display() const;
 };
 
